@@ -5,6 +5,7 @@
 #define FPGA_VERSION_ADDRESS FPGA_BASE_ADDRESS
 #define FPGA_STATUS_ADDRESS FPGA_BASE_ADDRESS + 0x4
 
+// We enable debug to fake the FPGA_BASE_ADDRESS
 #define DEBUG
 
 #ifdef DEBUG

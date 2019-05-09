@@ -1,10 +1,7 @@
 #include "axon.h"
 #include "module/io.h"
 
-#include <stdlib.h>
-#include <stdio.h>
 #include <fcntl.h>      /* open */ 
-#include <unistd.h>     /* exit */
 #include <sys/ioctl.h>  /* ioctl */
 #include <poll.h>
 

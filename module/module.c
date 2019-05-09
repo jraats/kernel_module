@@ -1,14 +1,7 @@
-#include <linux/init.h>
 #include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
 #include <asm/uaccess.h>
 #include <linux/device.h>
-#include <linux/kthread.h>  // for threads
-#include <linux/sched.h>  // for task_struct
-#include <linux/time.h>   // for using jiffies
-
-#include <linux/types.h>
+#include <linux/kthread.h>
 #include <linux/slab.h>
 
 #include "fpga_mapping.h"

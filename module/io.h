@@ -1,5 +1,5 @@
-#ifndef FPGA_H
-#define FPGA_H
+#ifndef IO_H
+#define IO_H
 
 #include <linux/ioctl.h>
 
@@ -25,4 +25,4 @@
 #define FPGA_SYSFS_NAME "fpga"
 #define FPGA_SYSFS_ATTRIBUTE "notify"
 
-#endif // FPGA_H
+#endif // IO_H
